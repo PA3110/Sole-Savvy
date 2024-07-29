@@ -1,6 +1,6 @@
-# Sole-Savvy
+# UrbanSteps
 
-SoleSavvy is a sleek and modern frontend e-commerce website dedicated to providing a diverse range of stylish and high-quality shoes. Whether you're looking for the latest sneakers, elegant formal shoes, or comfortable casual footwear, SoleSavvy has something for everyone.
+UrbanSteps is a sleek and modern frontend e-commerce website dedicated to providing a diverse range of stylish and high-quality shoes. Whether you're looking for the latest sneakers, elegant formal shoes, or comfortable casual footwear, UrbanSteps has something for everyone.
 
 Features :-
 Wide Selection: Browse through an extensive collection of shoes for men, women, and kids.
