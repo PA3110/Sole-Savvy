@@ -1,1 +1,171 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background: rgb(128, 128, 128, 0.6);
+}
+header {
+  width: 70%;
+  height: auto;
+  /* border: 1px solid #000; */
+  margin: auto;
+  background: #fff;
+  /* padding: 5px; */
+}
+header nav {
+  width: 100;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+header nav h5 span {
+  color: orangered;
+}
+header nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+header nav ul li {
+  padding: 3px 0px 3px 30px;
+}
+header nav ul li a {
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  color: rgb(0, 0, 0, 0.7);
+  transition: 0.3s linear;
+}
+header nav ul li a:hover {
+  color: rgb(0, 0, 0);
+}
+header nav ul li a i {
+  margin-right: 3px;
+}
+header .brand_nav {
+  width: 100%;
+  height: 50px;
+  background: rgb(0, 0, 0);
+  color: #fff;
+}
+header .brand_nav ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  transition: 0.3s linear;
+  padding: 0px 20px;
+}
+header .brand_nav ul li {
+  position: relative;
+  transition: 0.3s linear;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .brand_nav ul li a {
+  text-decoration: none;
+  font-size: 13px;
+  color: rgb(193, 193, 193, 0.5);
+  transition: 0.3s linear;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+header .brand_nav ul li a:hover {
+  color: #fff;
+}
+header .brand_nav ul li i {
+  margin-left: 6px;
+  transition: 0.3s linear;
+}
+header .brand_nav ul li:nth-last-child(1) i {
+  color: orangered;
+}
+header .brand_nav ul li img {
+  width: 60px;
+}
+header .brand_nav ul li:nth-child(2) {
+  background: orangered;
+  width: 130px;
+}
+header .brand_nav ul li:nth-child(4) {
+  width: 130px;
+}
+header .brand_nav ul li:nth-child(2):hover {
+  background: orangered;
+}
+header .brand_nav ul li:nth-child(4):hover {
+  background: orangered;
+}
+header .brand_nav ul li:nth-child(1) .select_bx {
+  position: absolute;
+  top: 100%;
+  width: 90px;
+  height: 0px;
+  background: orangered;
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 9999999;
+  box-shadow: 0px 0px 20px rgb(0, 0, 0, 0.5);
+  overflow: hidden;
+  transition: 1s linear;
+  opacity: 0;
+}
+header .brand_nav ul li:nth-child(1) .select_bx h5 {
+  padding: 5px 0px;
+}
+header .brand_nav ul li:nth-child(1) .select_bx_active {
+  height: 100px;
+  opacity: 1;
+}
+header .brand_nav .li_bx {
+  width: 100%;
+  height: auto;
+  background: orangered;
+  padding: 8px 0px;
+}
+header .brand_nav .li_bx li {
+  color: #fff;
+  font-size: 12px;
+  transition: 0.3s linear;
+  cursor: pointer;
+}
+header .brand_nav .li_bx li:hover {
+  color: rgb(0, 0, 0, 0.8);
+}
+section {
+  width: 70%;
+  height: auto;
+  display: flex;
+  margin: 34px auto 0px auto;
+  background: #fff;
+}
+section aside,
+.shoes_bx {
+  width: 82%;
+  height: auto;
+}
+section aside {
+  width: 18%;
+}
+section .shoes_bx {
+  padding: 0px 30px;
+}
+section .shoes_bx nav {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(0, 0, 0, 0.1);
+}
